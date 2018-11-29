@@ -55,7 +55,7 @@
           context.fillText('x: ' + rect.x + 'px', rect.x + rect.width + 5, rect.y + 11);
           context.fillText('y: ' + rect.y + 'px', rect.x + rect.width + 5, rect.y + 22);
         });
-        drawing = new Image();
+        var drawing = new Image();
         drawing.src = "./assets/01_uv.png"; // can also be a remote URL e.g. http://
         drawing.onload = function () {
           context.drawImage(drawing, 0, 0);
